@@ -1,15 +1,43 @@
 body {
-    background-color: red;
-    color: white;
+    font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
+    background-color: lightblue;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 32px;
+    color: darkblue;
+}
+
+p {
+    font-size: 18px;
+    color: black;
 }
 
 button {
-    padding: 20px;
-    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+#skills {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
